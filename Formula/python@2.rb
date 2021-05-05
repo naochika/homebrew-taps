@@ -7,7 +7,8 @@ class PythonAT2 < Formula
   head "https://github.com/python/cpython.git", branch: "2.7"
 
   bottle do
-    sha256 big_sur:     "c16bbd329a3d0f45cd2b21479dc87a881b4eab262743461066fda60bb20dec41"
+    rebuild 1
+    sha256 big_sur:     "6b64b37849df9272e6e0adf92d3563f4d6be246e0550ee37a535ad9f945b1821"
     sha256 catalina:    "accfaa922708f00afb69ab230199f96e6ecdddd248a1eca586ce1e5e5cfd732b"
     sha256 mojave:      "54d3351d6be8268b2f5017894dcc8e083811dfa3812bdb9f79f989873b9a4542"
     sha256 high_sierra: "cfd5c6eeac37065d19f527bb0798a9caf1928bab3340cd545224861a3c82f219"
